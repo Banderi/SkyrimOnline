@@ -30,8 +30,8 @@ Chat::Chat(MyGUI::Gui* pUI)
 	//m_pAddr->eventEditTextChange += MyGUI::newDelegate(this, &ServerConnect::EditKeyPressEvent);
 	//m_pPort->eventEditTextChange += MyGUI::newDelegate(this, &ServerConnect::EditKeyPressEvent);
 
-	m_pAddr->setCaption("127.0.0.1");
-	m_pPort->setCaption("10578");
+	m_pAddr->setCaption("192.168.1.223");
+	m_pPort->setCaption("11155");
 
 	m_pConnect->eventMouseButtonClick += MyGUI::newDelegate(this, &Chat::MouseClickedEvent);
 

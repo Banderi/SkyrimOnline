@@ -48,7 +48,7 @@ void World::Connect(const char * addrStr, uint16_t port)
 
 void World::Connect()
 {
-	EnetServer::Connect("127.0.0.1", 10578);
+	EnetServer::Connect("192.168.1.223", 11155);
 }
 
 void World::Send(Packet* apPacket)

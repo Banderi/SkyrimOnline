@@ -1,19 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MyGUI type="Layout" version="3.2.0">
-    <Widget type="EditBox" skin="EditBoxStretch_Dark" position="10 785 620 196" layer="Overlapped" name="Chat_List">
+	
+	<!-- server connect -->
+	<Widget type="EditBox" skin="EditBox_Dark" position="10 482 200 35" layer="Overlapped" name="Server_Edit_Addr">
 		<Property key="Alpha" value="0.7"/>
 	</Widget>
-    <Widget type="EditBox" skin="EditBox_Dark" position="10 988 620 35" layer="Overlapped" name="Chat_Edit">
+    <Widget type="EditBox" skin="EditBox_Dark" position="220 482 200 35" layer="Overlapped" name="Server_Edit_Port">
 		<Property key="Alpha" value="0.7"/>
 	</Widget>
-	<Widget type="EditBox" skin="EditBox_Dark" position="10 735 200 35" layer="Overlapped" name="Server_Edit_Addr">
-		<Property key="Alpha" value="0.7"/>
-	</Widget>
-    <Widget type="EditBox" skin="EditBox_Dark" position="220 735 200 35" layer="Overlapped" name="Server_Edit_Port">
-		<Property key="Alpha" value="0.7"/>
-	</Widget>
-    <Widget type="Button" skin="Button_Dark" position="430 735 200 35" layer="Overlapped" name="Server_Btn_Connect">
+    <Widget type="Button" skin="Button_Dark" position="430 482 200 35" layer="Overlapped" name="Server_Btn_Connect">
 		<Property key="Widget_Caption" value="Connect"/>
 		<Property key="Alpha" value="0.7"/>
 	</Widget>
+	
+	<!-- chatbox -->
+    <Widget type="EditBox" skin="EditBoxStretch_Dark" position="10 523 620 196" layer="Overlapped" name="Chat_List">
+		<Property key="Alpha" value="0.7"/>
+	</Widget>
+    <Widget type="EditBox" skin="EditBox_Dark" position="10 725 620 35" layer="Overlapped" name="Chat_Edit">
+		<Property key="Alpha" value="0.7"/>
+	</Widget>
+	
 </MyGUI>
